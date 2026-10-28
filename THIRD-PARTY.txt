@@ -1,0 +1,1 @@
+JellyBeat 0.5.0 bundles no third-party audio libraries. The Windows capture bridge uses system WASAPI and .NET Framework 4.x. Minecraft, Fabric and Simple Voice Chat are compile/runtime dependencies, not bundled. Voice Chat PCM is read without modification or recording.

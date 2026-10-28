@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.atomshake.jellybeat.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "EntityDanceMixin",
+    "VoiceStateMixin",
+    "RenderPassAccessor",
+    "GuiResizeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "jellybeat",
+  "version": "0.7.1",
+  "name": "JellyBeat",
+  "description": "Windows WASAPI playback-device audio reactive client-side jelly dance, with cached batched surface geometry.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.atomshake.jellybeat.JellyBeat"
+    ],
+    "voicechat": [
+      "dev.atomshake.jellybeat.JellyVoicePlugin"
+    ]
+  },
+  "mixins": [
+    "jellybeat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "license": "MIT"
+}
