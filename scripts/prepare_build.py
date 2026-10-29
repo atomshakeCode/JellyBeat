@@ -11,7 +11,7 @@ MC = "26.2"
 LOADER = "0.19.5"
 MC_ID = f"{MC}-{LOADER}"
 API_VERSION = "0.155.2+26.2"
-VOICE_VERSION = "2.6.21+26.2"
+VOICE_VERSION = "fabric-2.6.21+26.2"
 
 
 def get(url):
